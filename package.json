@@ -1,0 +1,24 @@
+{
+  "name": "maparraytoobject",
+  "version": "1.0.0",
+  "description": "Map array of objects to object ",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/inoyakaigor/maparraytoobject.git"
+  },
+  "keywords": [
+    "map",
+    "array",
+    "object"
+  ],
+  "author": "Igor «InoY» Zvyagintsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inoyakaigor/maparraytoobject/issues"
+  },
+  "homepage": "https://github.com/inoyakaigor/maparraytoobject#readme"
+}
