@@ -1,14 +1,15 @@
 const mapArrayToObject = (array, key) => {
-    const objects = Object.create(null) // entirely clean object w/o __proto__ etc
+    const objects = {}
 
     if ([] instanceof Array && typeof key == 'string') {
         array.forEach(object => {
             objects[object[key]] = object
         })
-        return objects
     } else {
-        console.warn('mapArrayToObject: Check the arguments passed! One or more are wrong!')
+        console.warn('mapArrayToObject:\nCheck the arguments passed! One or more are wrong! Will return empty object')
     }
+
+    return objects
 }
 
 module.exports = mapArrayToObject
